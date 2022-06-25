@@ -1,0 +1,81 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.mini_wordle-debug.module" : {
+      "executable" : "/Volumes/external1tb/Apps/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external1tb/src/rosetta/mini_wordle/swift/Sources/mini_wordle/main.swift"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "mini_wordle",
+      "moduleOutputPath" : "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.swiftmodule",
+      "objects" : [
+        "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "mini_wordle_main",
+        "-color-diagnostics",
+        "-sdk",
+        "/Volumes/external1tb/Apps/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk",
+        "-F",
+        "/Volumes/external1tb/Apps/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Volumes/external1tb/Apps/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Volumes/external1tb/Apps/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Volumes/external1tb/src/rosetta/mini_wordle/swift/Sources/mini_wordle/main.swift"
+      ],
+      "tempsPath" : "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

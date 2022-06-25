@@ -1,0 +1,16 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/opt/homebrew/Cellar/scala-cli/0.1.2/bin/scala-cli",
+    "bsp",
+    "--json-options",
+    "/Users/pkreyenhop/scala/.scala-build/ide-options.json",
+    "/Users/pkreyenhop/scala/"
+  ],
+  "version": "0.1.2",
+  "bspVersion": "2.0.0",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

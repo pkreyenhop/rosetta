@@ -1,0 +1,659 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "TypeDecl",
+      "name": "GameState",
+      "printedName": "GameState",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "guess",
+          "printedName": "guess",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11mini_wordle9GameStateV5guessSSvp",
+          "mangledName": "$s11mini_wordle9GameStateV5guessSSvp",
+          "moduleName": "mini_wordle",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV5guessSSvg",
+              "mangledName": "$s11mini_wordle9GameStateV5guessSSvg",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV5guessSSvs",
+              "mangledName": "$s11mini_wordle9GameStateV5guessSSvs",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV5guessSSvM",
+              "mangledName": "$s11mini_wordle9GameStateV5guessSSvM",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "word",
+          "printedName": "word",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11mini_wordle9GameStateV4wordSSvp",
+          "mangledName": "$s11mini_wordle9GameStateV4wordSSvp",
+          "moduleName": "mini_wordle",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV4wordSSvg",
+              "mangledName": "$s11mini_wordle9GameStateV4wordSSvg",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV4wordSSvs",
+              "mangledName": "$s11mini_wordle9GameStateV4wordSSvs",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV4wordSSvM",
+              "mangledName": "$s11mini_wordle9GameStateV4wordSSvM",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "guess_left",
+          "printedName": "guess_left",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11mini_wordle9GameStateV10guess_leftSivp",
+          "mangledName": "$s11mini_wordle9GameStateV10guess_leftSivp",
+          "moduleName": "mini_wordle",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV10guess_leftSivg",
+              "mangledName": "$s11mini_wordle9GameStateV10guess_leftSivg",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV10guess_leftSivs",
+              "mangledName": "$s11mini_wordle9GameStateV10guess_leftSivs",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV10guess_leftSivM",
+              "mangledName": "$s11mini_wordle9GameStateV10guess_leftSivM",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "result_string",
+          "printedName": "result_string",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:11mini_wordle9GameStateV13result_stringSSvp",
+          "mangledName": "$s11mini_wordle9GameStateV13result_stringSSvp",
+          "moduleName": "mini_wordle",
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV13result_stringSSvg",
+              "mangledName": "$s11mini_wordle9GameStateV13result_stringSSvg",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV13result_stringSSvs",
+              "mangledName": "$s11mini_wordle9GameStateV13result_stringSSvs",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:11mini_wordle9GameStateV13result_stringSSvM",
+              "mangledName": "$s11mini_wordle9GameStateV13result_stringSSvM",
+              "moduleName": "mini_wordle",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(guess:word:guess_left:result_string:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GameState",
+              "printedName": "mini_wordle.GameState",
+              "usr": "s:11mini_wordle9GameStateV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "hasDefaultArg": true,
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "hasDefaultArg": true,
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11mini_wordle9GameStateV5guess4word0E5_left13result_stringACSS_SSSiSStcfc",
+          "mangledName": "$s11mini_wordle9GameStateV5guess4word0E5_left13result_stringACSS_SSSiSStcfc",
+          "moduleName": "mini_wordle",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GameState",
+              "printedName": "mini_wordle.GameState",
+              "usr": "s:11mini_wordle9GameStateV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:11mini_wordle9GameStateVACycfc",
+          "mangledName": "$s11mini_wordle9GameStateVACycfc",
+          "moduleName": "mini_wordle",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:11mini_wordle9GameStateV",
+      "mangledName": "$s11mini_wordle9GameStateV",
+      "moduleName": "mini_wordle",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Var",
+      "name": "dict",
+      "printedName": "dict",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Array",
+          "printedName": "[Swift.String]",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "usr": "s:Sa"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:11mini_wordle4dictSaySSGvp",
+      "mangledName": "$s11mini_wordle4dictSaySSGvp",
+      "moduleName": "mini_wordle",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    },
+    {
+      "kind": "Function",
+      "name": "main",
+      "printedName": "main()",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:11mini_wordle4mainyyF",
+      "mangledName": "$s11mini_wordle4mainyyF",
+      "moduleName": "mini_wordle",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "repl",
+      "printedName": "repl(gs:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "GameState",
+          "printedName": "mini_wordle.GameState",
+          "usr": "s:11mini_wordle9GameStateV"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "GameState",
+          "printedName": "mini_wordle.GameState",
+          "usr": "s:11mini_wordle9GameStateV"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:11mini_wordle4repl2gsAA9GameStateVAE_tF",
+      "mangledName": "$s11mini_wordle4repl2gsAA9GameStateVAE_tF",
+      "moduleName": "mini_wordle",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "initiate",
+      "printedName": "initiate()",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "GameState",
+          "printedName": "mini_wordle.GameState",
+          "usr": "s:11mini_wordle9GameStateV"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:11mini_wordle8initiateAA9GameStateVyF",
+      "mangledName": "$s11mini_wordle8initiateAA9GameStateVyF",
+      "moduleName": "mini_wordle",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "read_guess",
+      "printedName": "read_guess(gs:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "GameState",
+          "printedName": "mini_wordle.GameState",
+          "usr": "s:11mini_wordle9GameStateV"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "GameState",
+          "printedName": "mini_wordle.GameState",
+          "usr": "s:11mini_wordle9GameStateV"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:11mini_wordle10read_guess2gsAA9GameStateVAE_tF",
+      "mangledName": "$s11mini_wordle10read_guess2gsAA9GameStateVAE_tF",
+      "moduleName": "mini_wordle",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "eval_guess",
+      "printedName": "eval_guess(gs:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "GameState",
+          "printedName": "mini_wordle.GameState",
+          "usr": "s:11mini_wordle9GameStateV"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "GameState",
+          "printedName": "mini_wordle.GameState",
+          "usr": "s:11mini_wordle9GameStateV"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:11mini_wordle10eval_guess2gsAA9GameStateVAE_tF",
+      "mangledName": "$s11mini_wordle10eval_guess2gsAA9GameStateVAE_tF",
+      "moduleName": "mini_wordle",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "final_result",
+      "printedName": "final_result(gs:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "GameState",
+          "printedName": "mini_wordle.GameState",
+          "usr": "s:11mini_wordle9GameStateV"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:11mini_wordle12final_result2gsyAA9GameStateV_tF",
+      "mangledName": "$s11mini_wordle12final_result2gsyAA9GameStateV_tF",
+      "moduleName": "mini_wordle",
+      "funcSelfKind": "NonMutating"
+    },
+    {
+      "kind": "Function",
+      "name": "is_valid",
+      "printedName": "is_valid(s:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Bool",
+          "printedName": "Swift.Bool",
+          "usr": "s:Sb"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "String",
+          "printedName": "Swift.String",
+          "usr": "s:SS"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:11mini_wordle8is_valid1sSbSS_tF",
+      "mangledName": "$s11mini_wordle8is_valid1sSbSS_tF",
+      "moduleName": "mini_wordle",
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}

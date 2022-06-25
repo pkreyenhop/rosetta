@@ -1,0 +1,6 @@
+PROC fib = (LONG INT n) LONG INT:
+     BEGIN
+      (n<2|n|fib(n-1)+fib(n-2))
+     END;
+     
+print (("fib(30) = ",fib(32), new line))

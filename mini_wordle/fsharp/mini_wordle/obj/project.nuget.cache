@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mq8B0Ty8qUzyQ/7dSHj83EufNRjVHOmNQuz/AAYF01hflII+pFfWtdvWLsAs5xigoV9gT2BVZV/OcDq4TREpiQ==",
+  "success": true,
+  "projectFilePath": "/Volumes/external1tb/src/rosetta/mini_wordle/fsharp/mini_wordle/mini_wordle.fsproj",
+  "expectedPackageFiles": [
+    "/Users/pkreyenhop/.nuget/packages/fsharp.core/6.0.4/fsharp.core.6.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

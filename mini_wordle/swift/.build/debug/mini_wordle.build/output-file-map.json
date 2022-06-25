@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.build/master.swiftdeps"
+  },
+  "/Volumes/external1tb/src/rosetta/mini_wordle/swift/Sources/mini_wordle/main.swift": {
+    "dependencies": "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.build/main.d",
+    "object": "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.build/main.swift.o",
+    "swiftmodule": "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Volumes/external1tb/src/rosetta/mini_wordle/swift/.build/arm64-apple-macosx/debug/mini_wordle.build/main.swiftdeps"
+  }
+}

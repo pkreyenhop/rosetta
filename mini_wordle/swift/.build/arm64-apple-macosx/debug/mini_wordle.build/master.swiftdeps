@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "61d1dff3e44ac44628af1dcf78fef820c64d1f68a86d6df29708990af5353dd9"
+build_start_time: [1653900620, 97008943]
+build_end_time: [1653900620, 623584985]
+inputs:
+  "/Volumes/external1tb/src/rosetta/mini_wordle/swift/Sources/mini_wordle/main.swift": [1653900596, 268611907]
